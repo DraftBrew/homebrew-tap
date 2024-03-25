@@ -1,9 +1,9 @@
 cask "execs" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.5"
-  sha256 arm:   "b6dbd0b822deedd2513a7065b8b507d8b6bcc870f12432bf7194fe57ea621082",
-         intel: "8dd2aec923d35bd6ab65180942689d533ec539b8636db25f10d097d7e25c2778"
+  version "0.1.6"
+  sha256 arm:   "621e627dbbfd8f752fdbb1eeeeb94cb15001ccd2ad9bdbdb40ce9fbd7642961c",
+         intel: "dba882bbed84f7017dd05392dc31996a869344525a4ed27e5ab68274c23c26ba"
 
   url "https://github.com/daeho-ro/execs/releases/download/v#{version}/execs_#{version}_darwin_#{arch}"
   name "execs"

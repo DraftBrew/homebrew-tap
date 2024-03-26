@@ -10,21 +10,21 @@
   ],
   "desc": "Execute shell command on the ECS Fargate",
   "homepage": "https://github.com/daeho-ro/",
-  "url": "https://github.com/daeho-ro/execs/releases/download/v0.1.6/execs_0.1.6_darwin_arm64",
+  "url": "https://github.com/daeho-ro/execs/releases/download/v0.1.7/execs_0.1.7_darwin_arm64",
   "url_specs": {
   },
   "appcast": null,
-  "version": "0.1.6",
+  "version": "0.1.7",
   "installed": "0.1.6",
   "installed_time": 1711337052,
   "bundle_version": null,
   "bundle_short_version": null,
-  "outdated": false,
-  "sha256": "621e627dbbfd8f752fdbb1eeeeb94cb15001ccd2ad9bdbdb40ce9fbd7642961c",
+  "outdated": true,
+  "sha256": "0a6cb35fc025718881a716838246e631cd55687f950f251709a2c10100c0181b",
   "artifacts": [
     {
       "binary": [
-        "execs_0.1.6_darwin_arm64",
+        "execs_0.1.7_darwin_arm64",
         {
           "target": "execs"
         }
@@ -43,12 +43,12 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "52ec437b2dcacc1e0d8ce343b01c7691d030d3ff",
+  "tap_git_head": "b0a5072f0dab0afecad77e563f0bcf75b3544a09",
   "languages": [
 
   ],
   "ruby_source_path": "Casks/execs.rb",
   "ruby_source_checksum": {
-    "sha256": "d18b3f892dfc4531e4d033a935e41d22b6f3867714c868e0ff4dc02c5b391182"
+    "sha256": "162d1ee7778ddec9a84eb3149e3857ff3161859fb91129e38237c56805cfd7cc"
   }
 }

@@ -1,10 +1,10 @@
 {
   "token": "execs",
-  "full_token": "daeho-ro/tap/execs",
+  "full_token": "draftbrew/tap/execs",
   "old_tokens": [
 
   ],
-  "tap": "daeho-ro/tap",
+  "tap": "draftbrew/tap",
   "name": [
     "execs"
   ],

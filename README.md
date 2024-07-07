@@ -1,9 +1,9 @@
 # Brew
-Add brew tap for daeho-ro.
+Add brew tap as follows:
 ```
-brew tap daeho-ro/repo
+brew tap draftbrew/repo
 ```
-Then, you can install the casks.
+Then you can install fomulaes and casks.
 ```
-brew install execs
+brew install <formula|cask name>
 ```

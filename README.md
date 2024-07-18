@@ -1,9 +1,22 @@
 # Brew
-Add brew tap as follows:
+
+## Install
+You can install fomulaes and casks as follows:
+
 ```
-brew tap draftbrew/repo
+brew install draftbrew/tap/<formula|cask>
 ```
-Then you can install fomulaes and casks.
+
+## Formulaes and casks
+
 ```
-brew install <formula|cask name>
+.
+├── Casks
+│   ├── execs.rb
+│   ├── notepadnext.rb
+│   ├── satyrn.rb
+│   └── space-cadet-pinball.rb
+└── Formula
+    ├── aider.rb
+    └── ducker.rb
 ```

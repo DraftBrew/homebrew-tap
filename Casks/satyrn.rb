@@ -21,6 +21,6 @@ cask "satyrn" do
   zap trash: [
     "~/Library/Application Support/satyrn",
     "~/Library/Preferences/com.satyrn.app.plist",
-    "~/Library/Saved Application State/com.satyrn.app.savedState"
+    "~/Library/Saved Application State/com.satyrn.app.savedState",
   ]
 end

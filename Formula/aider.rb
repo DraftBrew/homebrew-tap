@@ -8,8 +8,8 @@ class Aider < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.44.0"
-    sha256 cellar: :any, arm64_sonoma: "401ad2185428484ed013fedfc0150613d58fd79f78cc7db4424d8786167812fa"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.45.1"
+    sha256 cellar: :any, arm64_sonoma: "0181cb462644ea0ba380efcf21eb791f0ea4baa28ed222b7aa64a051b676f3df"
   end
 
   depends_on "cmake" => :build

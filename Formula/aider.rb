@@ -3,13 +3,13 @@ class Aider < Formula
 
   desc "AI pair programming in your terminal"
   homepage "https://aider.chat"
-  url "https://github.com/paul-gauthier/aider/archive/refs/tags/v0.44.0.tar.gz"
-  sha256 "a7b1bdbaa99433cb8a770000ded33fc5221451b78382b2b03ead1a64b5fffcd3"
+  url "https://github.com/paul-gauthier/aider/archive/refs/tags/v0.45.1.tar.gz"
+  sha256 "a1da53fe3ea465e2873ee4643c68b6f347dd8fe897259f1bf5c89f6c98c0daad"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.44.0"
-    sha256 cellar: :any, arm64_sonoma: "401ad2185428484ed013fedfc0150613d58fd79f78cc7db4424d8786167812fa"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.45.1"
+    sha256 cellar: :any, arm64_sonoma: "0181cb462644ea0ba380efcf21eb791f0ea4baa28ed222b7aa64a051b676f3df"
   end
 
   depends_on "cmake" => :build

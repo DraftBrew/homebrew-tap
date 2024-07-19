@@ -7,7 +7,7 @@ class Ducker < Formula
   head "https://github.com/robertpsoane/ducker.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.44.0"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/ducker-0.0.7"
     sha256 cellar: :any_skip_relocation, arm64_sonoma: "c11429b7344fdfb9cf1c7953253be8be2b126f452b53e010723f259fd42455df"
   end
 

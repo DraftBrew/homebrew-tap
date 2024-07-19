@@ -7,6 +7,11 @@ class Aider < Formula
   sha256 "a7b1bdbaa99433cb8a770000ded33fc5221451b78382b2b03ead1a64b5fffcd3"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/aider-0.44.0"
+    sha256 cellar: :any, arm64_sonoma: "401ad2185428484ed013fedfc0150613d58fd79f78cc7db4424d8786167812fa"
+  end
+
   depends_on "cmake" => :build
   depends_on "rust" => :build # for pydantic-core
   depends_on "numpy"

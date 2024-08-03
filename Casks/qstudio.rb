@@ -25,12 +25,12 @@ cask "qstudio" do
     EOS
   end
 
-  caveats do
-    depends_on_java "8+"
-  end
-
   zap trash: [
     "~/Library/Preferences/com.timestored.qstudio.plist",
     "~/qStudio",
   ]
+
+  caveats do
+    depends_on_java "8+"
+  end
 end

@@ -8,8 +8,8 @@ class Posting < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/posting-1.9.3"
-    sha256 cellar: :any, arm64_sonoma: "e26ddd712e3f444732c814e87227607434150a04d017fbcf5162519a8bbd3a15"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/posting-1.10.0"
+    sha256 cellar: :any, arm64_sonoma: "25c024d472fd4ef277b1c2a091fb8544a3d51543e95f3e4ce8008590b2b42cf1"
   end
 
   depends_on "rust" => :build

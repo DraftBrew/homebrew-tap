@@ -3,13 +3,13 @@ class Posting < Formula
 
   desc "Modern API client that lives in your terminal"
   homepage "https://github.com/darrenburns/posting"
-  url "https://github.com/darrenburns/posting/archive/refs/tags/1.9.3.tar.gz"
-  sha256 "b46597bd012808a1e1f0e744f31b6e0c2812e2ee8d002f34bd1ed91076a45418"
+  url "https://github.com/darrenburns/posting/archive/refs/tags/1.10.0.tar.gz"
+  sha256 "4e7f98f909a25052995d49f7da05da97d724362d0959b170f09977f15682938b"
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/posting-1.9.3"
-    sha256 cellar: :any, arm64_sonoma: "e26ddd712e3f444732c814e87227607434150a04d017fbcf5162519a8bbd3a15"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/posting-1.10.0"
+    sha256 cellar: :any, arm64_sonoma: "25c024d472fd4ef277b1c2a091fb8544a3d51543e95f3e4ce8008590b2b42cf1"
   end
 
   depends_on "rust" => :build

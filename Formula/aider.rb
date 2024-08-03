@@ -3,8 +3,8 @@ class Aider < Formula
 
   desc "AI pair programming in your terminal"
   homepage "https://aider.chat"
-  url "https://github.com/paul-gauthier/aider/archive/refs/tags/v0.45.1.tar.gz"
-  sha256 "a1da53fe3ea465e2873ee4643c68b6f347dd8fe897259f1bf5c89f6c98c0daad"
+  url "https://github.com/paul-gauthier/aider/archive/refs/tags/v0.47.1.tar.gz"
+  sha256 "c4900a6b71ab40bde7b70ff3f77944d162a00298e5dd4ef4080c7ba290d00544"
   license "Apache-2.0"
 
   bottle do

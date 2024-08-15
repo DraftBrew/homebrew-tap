@@ -13,7 +13,6 @@ brew install draftbrew/tap/<formula|cask>
 > tree Formula Casks
 Formula
 ├── ducker.rb
-├── dut.rb
 └── posting.rb
 Casks
 ├── execs.rb

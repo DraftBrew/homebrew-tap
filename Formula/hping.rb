@@ -21,6 +21,12 @@ class Hping < Formula
 
     man8.install "docs/hping3.8"
   end
+
+  test do
+    # need sudo access
+    assert_includes shell_output("#{bin}/hping -1 127.0.0.1 -c 3", 1), "can't open raw socket"
+    assert_includes shell_output("#{bin}/hping --version"), "hping version 3.0.0-alpha-1"
+  end
 end
 
 __END__

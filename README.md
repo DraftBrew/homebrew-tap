@@ -10,16 +10,14 @@ brew install draftbrew/tap/<formula|cask>
 ## Formulaes and casks
 
 ```
-> tree Formula Casks
 Formula
 ├── ducker.rb
-└── posting.rb
+└── hping.rb
 Casks
 ├── execs.rb
+├── matchumbeop.rb
 ├── notepadnext.rb
 ├── qstudio.rb
 ├── satyrn.rb
 └── space-cadet-pinball.rb
-
-2 directories, 9 files
 ```

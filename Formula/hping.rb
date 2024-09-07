@@ -5,6 +5,10 @@ class Hping < Formula
   version "3.0.0-alpha-1"
   sha256 "f5a671a62a11dc8114fa98eade19542ed1c3aa3c832b0e572ca0eb1a5a4faee8"
 
+  livecheck do
+    skip "No longer developed or maintained"
+  end
+
   depends_on "tcl-tk"
 
   uses_from_macos "libpcap"

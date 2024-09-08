@@ -1,8 +1,8 @@
 class Ducker < Formula
   desc "Terminal app for managing docker containers, inspired by K9s"
   homepage "https://github.com/robertpsoane/ducker"
-  url "https://github.com/robertpsoane/ducker/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "57dc95d59820f79579086b1f28bd03575157568e5dbd8a4d5e3f39cfcbf716ad"
+  url "https://github.com/robertpsoane/ducker/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "26f9ac5e96fe0bbed3ac61640046cc2cac242f86081bf9ae9d4e195877bd7704"
   license "MIT"
   head "https://github.com/robertpsoane/ducker.git", branch: "master"
 

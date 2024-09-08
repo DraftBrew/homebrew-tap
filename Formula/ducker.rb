@@ -7,8 +7,8 @@ class Ducker < Formula
   head "https://github.com/robertpsoane/ducker.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/ducker-0.1.2"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "be85bed467cdac03ecf7feda8752d822d8a16c0245d4fcbb97ca558d941f1062"
+    root_url "https://github.com/draftbrew/homebrew-tap/releases/download/ducker-0.1.3"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "15ed42b1f246dbf3d37f2295851cf1618aa51d1b2591df1a5c7af9e147d1e80f"
   end
 
   depends_on "rust" => :build

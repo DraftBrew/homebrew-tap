@@ -20,8 +20,7 @@ Casks
 ├── qstudio.rb
 ├── satyrn.rb
 ├── space-cadet-pinball.rb*
-├── surfer.rb
-└── zen@alpha.rb*
+└── surfer.rb
 ```
 
 `*` Marked casks were not signed and it is your own risk to install it.

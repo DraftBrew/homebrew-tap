@@ -1,9 +1,9 @@
 cask "satyrn" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.68"
-  sha256 arm:   "c8fd319640b0141a1488901cf61e756e332a07823608283a685a60a2e2e3f0d7",
-         intel: "1009bdc876a9e5b7543ec54a5b796e83e58ff56a0de2be2d68e7d6135cb2f551"
+  version "0.0.71"
+  sha256 arm:   "aa969ac22d6c568d98a935a52d966b931fd73bd6bfef939b89c737eeea423130",
+         intel: "76f2ff9bf65840f86d300b54609d8f6225bfc8d337207eeef5e583f543c6a87b"
 
   url "https://d2a69lt3a0puqr.cloudfront.net/satyrn-#{version}-#{arch}.dmg",
       verified: "d2a69lt3a0puqr.cloudfront.net/"

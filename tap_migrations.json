@@ -1,5 +1,6 @@
 {
   "aider": "homebrew/core",
   "posting": "darrenburns/homebrew",
+  "satyrn": "homebrew/cask",
   "zen@alpha": "homebrew/cask/zen-browser"
 }

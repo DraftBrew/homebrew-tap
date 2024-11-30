@@ -15,7 +15,7 @@ cask "space-cadet-pinball" do
   app "SpaceCadetPinball.app"
 
   zap trash: "~/Library/Application Support/SpaceCadetPinball/"
- 
+
   caveats <<~EOS
     The application is not signed.
   EOS

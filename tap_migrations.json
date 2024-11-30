@@ -1,5 +1,6 @@
 {
   "aider": "homebrew/core",
+  "notepadnext": "dail8859/notepadnext",
   "posting": "darrenburns/homebrew",
   "satyrn": "homebrew/cask",
   "zen@alpha": "homebrew/cask/zen-browser"

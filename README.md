@@ -16,9 +16,7 @@ Formula
 Casks
 ├── execs.rb
 ├── matchumbeop.rb
-├── notepadnext.rb
 ├── qstudio.rb
-├── satyrn.rb
 ├── space-cadet-pinball.rb*
 └── surfer.rb
 ```

@@ -11,7 +11,6 @@ brew install draftbrew/tap/<formula|cask>
 
 ```
 Formula
-├── ducker.rb
 └── hping.rb
 Casks
 ├── execs.rb

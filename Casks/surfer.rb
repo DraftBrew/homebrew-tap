@@ -1,9 +1,9 @@
 cask "surfer" do
   arch arm: "-arm64", intel: ""
 
-  version "1.0.2"
-  sha256 arm:   "7d2ea0a47c11cfa6c7a9b914b6055347c055ab9e79e7569d0fa08f03f5dc58a7",
-         intel: "9371e9d52bdfdc7d504e33dd8bba77cc316762003ead1f9dd50e02c5baa9b791"
+  version "1.0.3"
+  sha256 arm:   "ca02541e15af250cfee51393c3677ab68d7365df8d1b596a682a8fd52b2fdeb6",
+         intel: "3050a935eba5d8410025cb4badd6e59a0a338fa0ca4f6c7e41fd8fad0b4ea2db"
 
   url "https://github.com/CEREBRUS-MAXIMUS/Surfer-Data/releases/download/v#{version}/Surfer-#{version}#{arch}.dmg",
       verified: "github.com/CEREBRUS-MAXIMUS/Surfer-Data/"

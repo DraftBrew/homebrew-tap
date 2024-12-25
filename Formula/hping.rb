@@ -6,10 +6,10 @@ class Hping < Formula
   sha256 "f5a671a62a11dc8114fa98eade19542ed1c3aa3c832b0e572ca0eb1a5a4faee8"
 
   livecheck do
-    skip "No longer developed or maintained"
+    skip :unmaintained
   end
 
-  depends_on "tcl-tk"
+  depends_on "tcl-tk@8"
 
   uses_from_macos "libpcap"
 
@@ -43,10 +43,10 @@ index dab04ab..d1e7d1d 100755
  # TCL detection
  #
 -for TCLPATH_TRY in "/usr/bin/" "/usr/local/bin/" "/bin/"
-+for TCLPATH_TRY in "/usr/bin/" "/usr/local/bin/" "/bin/" "/opt/homebrew/opt/tcl-tk/bin/"
++for TCLPATH_TRY in "/usr/bin/" "/usr/local/bin/" "/bin/" "/opt/homebrew/opt/tcl-tk@8/bin/"
  do
 -	for TCLVER_TRY in "8.4" "8.3" "8.2" "8.1" "8.0"
-+	for TCLVER_TRY in "8.4" "8.3" "8.2" "8.1" "8.0" "8.6"
++	for TCLVER_TRY in "8.6"
  	do
  		if [ -z $TCLSH ]
  		then
@@ -55,9 +55,9 @@ index dab04ab..d1e7d1d 100755
  	USE_TCL='-DUSE_TCL'
  	TCL_LIB="-ltcl${TCL_VER}"
 -	if [ -e /usr/include/tcl${TCL_VER} ]
-+	if [ -e /opt/homebrew/opt/tcl-tk/lib/tcl${TCL_VER} ]
++	if [ -e /opt/homebrew/opt/tcl-tk@8/lib/tcl${TCL_VER} ]
 +	then
-+		TCL_INC="-I/opt/homebrew/opt/tcl-tk/lib${TCL_VER}"
++		TCL_INC="-I/opt/homebrew/opt/tcl-tk@8/include/tcl-tk/tcl.h"
 +	elif [ -e /usr/include/tcl${TCL_VER} ]
  	then
  		TCL_INC="-I/usr/include/tcl${TCL_VER}"

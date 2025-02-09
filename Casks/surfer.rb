@@ -11,6 +11,11 @@ cask "surfer" do
   desc "Digital footprint exporter"
   homepage "https://surfsup.ai/"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: ">= :high_sierra"
 
   app "Surfer.app"

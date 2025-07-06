@@ -1,30 +1,29 @@
 {
   "token": "execs",
   "full_token": "draftbrew/tap/execs",
-  "old_tokens": [
-
-  ],
+  "old_tokens": [],
   "tap": "draftbrew/tap",
   "name": [
     "execs"
   ],
   "desc": "Execute shell command on the ECS Fargate",
   "homepage": "https://github.com/daeho-ro/",
-  "url": "https://github.com/daeho-ro/execs/releases/download/v0.1.8/execs_0.1.8_darwin_arm64",
-  "url_specs": {
-  },
-  "appcast": null,
-  "version": "0.1.8",
-  "installed": "0.1.8",
-  "installed_time": 1712187406,
+  "url": "https://github.com/daeho-ro/execs/releases/download/v0.1.9/execs_0.1.9_darwin_arm64",
+  "url_specs": {},
+  "version": "0.1.9",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
   "bundle_version": null,
   "bundle_short_version": null,
   "outdated": false,
-  "sha256": "5628091f679a1d3e139428cf2c67e3f600dd84edc7f3c79f5e5f48b981872303",
+  "sha256": "fb27ac36d0320c4581192b40fad0f7948efc9c09dbd72234384ca74c312490d6",
   "artifacts": [
     {
       "binary": [
-        "execs_0.1.8_darwin_arm64",
+        "execs_0.1.9_darwin_arm64",
         {
           "target": "execs"
         }
@@ -33,6 +32,11 @@
   ],
   "caveats": null,
   "depends_on": {
+    "macos": {
+      ">=": [
+        "10.11"
+      ]
+    }
   },
   "conflicts_with": null,
   "container": null,
@@ -40,15 +44,17 @@
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "da0155cc18618476eb341cc909688f6a77c549d0",
-  "languages": [
-
-  ],
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "tap_git_head": "0561ecdb149e2b19ca46131ed838a06b9f536ca2",
+  "languages": [],
   "ruby_source_path": "Casks/execs.rb",
   "ruby_source_checksum": {
-    "sha256": "df55f9cad3f9a6eca471fe6906271eff713cee05ed405b743b9512ec673248cc"
+    "sha256": "fdf8ea74396a233526a6baf4dc2ca6955d584d753e3704a2277ecc9152073880"
   }
 }

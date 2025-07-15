@@ -18,6 +18,7 @@ Casks
 ├── matchumbeop.rb
 ├── qstudio.rb
 ├── relagit.rb*
+├── seoul-library-viewer.rb
 ├── skitch.rb*
 ├── space-cadet-pinball.rb*
 └── surfer.rb

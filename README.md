@@ -1,5 +1,7 @@
 # Brew
 
+Yet another dangerous brew for you!
+
 ## Install
 You can install fomulaes and casks as follows:
 
@@ -21,7 +23,8 @@ Casks
 ├── seoul-library-viewer.rb
 ├── skitch.rb*
 ├── space-cadet-pinball.rb*
-└── surfer.rb
+├── surfer.rb
+└── wireguard-statusbar.rb*
 ```
 
 `*` Marked casks were not signed and it is your own risk to install it.

@@ -28,9 +28,15 @@ cask "wireguard-statusbar" do
 
   app "WireGuardStatusbar.app"
 
+  uninstall launchctl: "WireGuardStatusbarHelper",
+            quit:      [
+              "WireGuardStatusbar",
+              "WireGuardStatusbarHelper",
+            ],
+            delete:    "/Library/PrivilegedHelperTools/WireGuardStatusbarHelper"
+
   zap trash: [
     "/Library/LaunchDaemons/WireGuardStatusbarHelper.plist",
-    "/Library/PrivilegedHelperTools/WireGuardStatusbarHelper",
     "~/Library/Preferences/WireGuardStatusbar.plist",
   ]
 

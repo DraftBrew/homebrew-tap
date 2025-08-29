@@ -8,7 +8,7 @@ class NcloudCli < Formula
 
   livecheck do
     url "https://cli.ncloud-docs.com/docs/guide-clichange"
-    regex(/CLI[._-]v?(\d+(?:\.\d+)+)[._-]\d+.zip/)
+    regex(/CLI[._-]v?(\d+(?:\.\d+)+)[._-]\d+.zip/i)
   end
 
   depends_on "openjdk"

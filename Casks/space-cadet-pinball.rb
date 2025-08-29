@@ -17,6 +17,8 @@ cask "space-cadet-pinball" do
   zap trash: "~/Library/Application Support/SpaceCadetPinball/"
 
   caveats <<~EOS
-    The application is not signed.
+    The application is not signed. Run
+
+      brew install --no-quarantine draftbrew/tap/space-cadet-pinball
   EOS
 end

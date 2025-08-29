@@ -13,6 +13,7 @@ brew install draftbrew/tap/<formula|cask>
 
 ```
 Formula
+├── ncloud-cli.rb
 └── hping.rb
 Casks
 ├── boring-notch.rb*

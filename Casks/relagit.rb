@@ -24,4 +24,10 @@ cask "relagit" do
     "~/Library/Application Support/relagit",
     "~/Library/Preferences/com.relagit.app.plist",
   ]
+
+  caveats <<~EOS
+    The application is not signed. Run
+
+      brew install --no-quarantine draftbrew/tap/relagit
+  EOS
 end

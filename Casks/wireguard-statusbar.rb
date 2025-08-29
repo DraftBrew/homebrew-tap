@@ -41,6 +41,8 @@ cask "wireguard-statusbar" do
   ]
 
   caveats <<~EOS
-    The application is not signed.
+    The application is not signed. Run
+
+      brew install --no-quarantine draftbrew/tap/wireguard-statusbar
   EOS
 end

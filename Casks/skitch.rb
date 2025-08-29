@@ -29,5 +29,10 @@ cask "skitch" do
 
   caveats do
     requires_rosetta
+    <<~EOS
+      The application is not signed. Run
+
+        brew install --no-quarantine draftbrew/tap/skitch
+    EOS
   end
 end

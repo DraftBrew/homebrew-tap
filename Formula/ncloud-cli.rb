@@ -16,11 +16,11 @@ class NcloudCli < Formula
   def install
     jar_name = "ncloud-api-cli-#{version}-SNAPSHOT-jar-with-dependencies.jar"
     libexec.install "cli_linux/lib/#{jar_name}"
-    bin.write_jar_script libexec/jar_name, "ncloud-cli"
+    bin.write_jar_script libexec/jar_name, "ncloud"
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/ncloud-cli --version")
-    assert_match "credentials are not set yet.", shell_output("#{bin}/ncloud-cli vpc", 1)
+    assert_match version.to_s, shell_output("#{bin}/ncloud --version")
+    assert_match "credentials are not set yet.", shell_output("#{bin}/ncloud vpc", 1)
   end
 end

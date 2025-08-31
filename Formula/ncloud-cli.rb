@@ -4,7 +4,7 @@ class NcloudCli < Formula
   url "https://www.ncloud.com/api/support/download/files/cli/CLI_1.1.25_20250717.zip"
   version "1.1.25"
   sha256 "be98ac0d20382c3563c02c9776dea16d6c4c1bbb4f8f3927359602d5c4f033ba"
-  license "GPL-3.0-or-later"
+  license :cannot_represent
 
   livecheck do
     url "https://cli.ncloud-docs.com/docs/guide-clichange"

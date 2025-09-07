@@ -1,6 +1,6 @@
 cask "qstudio" do
-  version "4.08"
-  sha256 "50df4611c6238ee5df4cf2e5fa03402c2d746da227087580b3346ab61f9db567"
+  version "4.12"
+  sha256 "3bf0a98823553ed6386435ee2319ccaef4b916b76c72b9e0bfabf563acbe45c0"
 
   url "https://github.com/timeseries/qstudio/releases/download/#{version}/qstudio.jar",
       verified: "github.com/timeseries/qstudio/"

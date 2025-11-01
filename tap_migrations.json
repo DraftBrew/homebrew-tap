@@ -2,7 +2,7 @@
   "aider": "homebrew/core",
   "ducker": "homebrew/core",
   "notepadnext": "dail8859/notepadnext",
-  "posting": "darrenburns/homebrew",
+  "posting": "homebrew/core",
   "satyrn": "homebrew/cask",
   "zen@alpha": "homebrew/cask/zen-browser"
 }

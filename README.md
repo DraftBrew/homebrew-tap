@@ -20,6 +20,7 @@ Casks
 ├── execs.rb
 ├── matchumbeop.rb
 ├── pomocore.rb
+├── qgis@nightly.rb
 ├── qstudio.rb
 ├── relagit.rb*
 ├── seoul-library-viewer.rb

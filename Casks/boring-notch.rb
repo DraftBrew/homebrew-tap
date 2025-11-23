@@ -1,8 +1,8 @@
 cask "boring-notch" do
-  version "2.6,wolf.painting"
-  sha256 "1a58ec27e5de30faf107fdf8b77575b1c39ace69e77b1330fc4ed6562bf2badc"
+  version "2.7.2"
+  sha256 "da0af83c617c6b67aae7479a7c3e886d19657adbac607d3b103cd147c5bfd0aa"
 
-  url "https://github.com/TheBoredTeam/boring.notch/releases/download/#{version.csv.second}/WolfPainting.dmg",
+  url "https://github.com/TheBoredTeam/boring.notch/releases/download/v#{version}/boringNotch.dmg",
       verified: "github.com/TheBoredTeam/boring.notch/"
   name "TheBoringNotch"
   desc "Transform Space: Not so boring Notch"
@@ -10,14 +10,10 @@ cask "boring-notch" do
 
   livecheck do
     url :url
-    regex(/v?(\d+(?:\.\d+)+)/i)
-    strategy :github_latest do |json, regex|
-      match = json["body"]&.match(regex)
-      tag = json["tag_name"]
-
-      "#{match[1]},#{tag}"
-    end
+    strategy :github_latest
   end
+
+  depends_on macos: ">= :sonoma"
 
   app "boringNotch.app"
 

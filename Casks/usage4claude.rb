@@ -19,7 +19,9 @@ cask "usage4claude" do
     "~/Library/Containers/xyz.fi5h.Usage4Claude",
   ]
 
-  caveats do
-    "`--no-quarantine` option is required to install"
-  end
+  caveats <<~EOS
+    The application is not signed. Run
+
+      brew install --no-quarantine draftbrew/tap/usage4claude
+  EOS
 end

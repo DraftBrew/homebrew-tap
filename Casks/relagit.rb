@@ -1,9 +1,9 @@
 cask "relagit" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.16.9"
-  sha256 arm:   "de3f62fb1a0990a98e7ca6f70bbcf1e90fe5672897a91c099800e81152ac5854",
-         intel: "5aa3f08a0214c7610b5c7056a7d39e6b328890c09e1dc294bc42b8fc0861a4b2"
+  version "0.16.10"
+  sha256 arm:   "300a2189c795a4d6b8288b523880e853499d7bf50ba95d9d60807968f410aebb",
+         intel: "426be23bb09bea8880858ebb00fe9fe52227b72c7b43421f45760d39afd8fcea"
 
   url "https://github.com/relagit/relagit/releases/download/v#{version}/RelaGit-mac-#{arch}.dmg",
       verified: "github.com/relagit/relagit/"

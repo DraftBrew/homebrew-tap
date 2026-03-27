@@ -1,6 +1,6 @@
 cask "co-molib" do
-  version "1.2.84"
-  sha256 "3215bfe656d4b484e71d89aafbbb5b15b9744eec78f0bb62dea777f6d835eb59"
+  version "1.2.91"
+  sha256 "545e339850c93890bba894003129574c369b6d1ddf52cb47dcaa19463cbeeb5c"
 
   url "https://github.com/swmaeStrong/Pawcus-Public/releases/download/v#{version}/Co-molib.dmg",
       verified: "github.com/swmaeStrong/Pawcus-Public/"

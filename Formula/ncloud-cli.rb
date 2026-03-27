@@ -1,9 +1,9 @@
 class NcloudCli < Formula
   desc "Command-line interface for Naver Cloud Platform"
   homepage "https://cli.ncloud-docs.com/docs/guide"
-  url "https://www.ncloud.com/api/support/download/files/cli/CLI_1.1.27_20251120.zip"
-  version "1.1.27-20251120"
-  sha256 "87043a13e081c0f63d47a2aba6d351985b6497cced637bca09ff35041212638f"
+  url "https://www.ncloud.com/api/support/download/files/cli/CLI_1.1.28_20260122.zip"
+  version "1.1.28-20260122"
+  sha256 "847836db4460c043be9c9b00c4bc76f2aac7a30fb8853f4646c078147b672638"
   license :cannot_represent
 
   livecheck do

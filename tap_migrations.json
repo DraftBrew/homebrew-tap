@@ -1,8 +1,20 @@
 {
   "aider": "homebrew/core",
+  "boring-notch": "GreedyLabs/tap",
+  "co-molib": "GreedyLabs/tap",
   "ducker": "homebrew/core",
+  "execs": "GreedyLabs/tap",
+  "matchumbeop": "GreedyLabs/tap",
   "notepadnext": "dail8859/notepadnext",
   "posting": "homebrew/core",
+  "qstudio": "GreedyLabs/tap",
+  "relagit": "GreedyLabs/tap",
   "satyrn": "homebrew/cask",
+  "seoul-library-viewer": "GreedyLabs/tap",
+  "skitch": "GreedyLabs/tap",
+  "space-cadet-pinball": "GreedyLabs/tap",
+  "surfer": "GreedyLabs/tap",
+  "usage4claude": "GreedyLabs/tap",
+  "wireguard-statusbar": "GreedyLabs/tap",
   "zen@alpha": "homebrew/cask/zen-browser"
 }

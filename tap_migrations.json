@@ -5,6 +5,7 @@
   "ducker": "homebrew/core",
   "execs": "GreedyLabs/tap",
   "matchumbeop": "GreedyLabs/tap",
+  "ncloud-cli": "GreedyLabs/tap",
   "notepadnext": "dail8859/notepadnext",
   "posting": "homebrew/core",
   "qstudio": "GreedyLabs/tap",
@@ -13,7 +14,7 @@
   "seoul-library-viewer": "GreedyLabs/tap",
   "skitch": "GreedyLabs/tap",
   "space-cadet-pinball": "GreedyLabs/tap",
-  "surfer": "GreedyLabs/tap",
+  "surfer": "GreedyLabs/tap/surfer-app",
   "usage4claude": "GreedyLabs/tap",
   "wireguard-statusbar": "GreedyLabs/tap",
   "zen@alpha": "homebrew/cask/zen-browser"
